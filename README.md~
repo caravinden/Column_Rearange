@@ -31,25 +31,6 @@ It specifies how many number of columns in output
 Output
 ==================
 
-Its a list of columns with specified order
-Eg:
-List<string> columnList
-
-Execute
-==================
-
-To user this application call Arrange.(Map<String, String> dataMap,ARRANGE_TYPE type, int columnSize) function with relevent parameters
-
-Eg:
-Map<String, String> mapData = new HashMap<String, String>();
-	mapData.put("ID", "INT");
-	mapData.put("NAME", "VARCHAR");
-	mapData.put("SALARY", "INT");
-	mapData.put("DEPT", "VARCHAR");
-	System.out.println(mapData);
-	List<String> list = Arrange.arrangeItem(mapData, ARRANGE_TYPE.STRING_INT, 2);
-	System.out.print("After arrange::STRING-INT = ");
-	System.out.print(list + "\n");
 
 
  
