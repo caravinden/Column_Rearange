@@ -50,7 +50,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("INT")) {
+					if (dataType.contains("int")) {
 						if (columnList.size() < columnSize) {
 							columnList.add(e);
 						}
@@ -62,7 +62,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("INT")) {
+					if (dataType.contains("int")) {
 						if (columnList.size() < (columnSize - 1)) {
 							columnList.add(e);
 						}
@@ -71,7 +71,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("VARCHAR")) {
+					if (dataType.contains("varchar")) {
 						if (columnList.size() < columnSize) {
 							columnList.add(e);
 						}
@@ -83,7 +83,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("VARCHAR")) {
+					if (dataType.contains("varchar")) {
 						if (columnList.size() < (columnSize - 1)) {
 							columnList.add(e);
 						}
@@ -92,7 +92,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("INT")) {
+					if (dataType.contains("int")) {
 						if (columnList.size() < columnSize) {
 							columnList.add(e);
 						}
@@ -104,7 +104,7 @@ public final class Arrange {
 			dataMap.keySet().stream().forEach(e -> {
 				String dataType = (String) dataMap.get(e);
 				// System.out.println(dataType);
-					if (dataType.contains("VARCHAR")) {
+					if (dataType.contains("varchar")) {
 						if (columnList.size() < columnSize) {
 							columnList.add(e);
 						}

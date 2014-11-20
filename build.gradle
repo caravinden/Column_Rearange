@@ -12,9 +12,19 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
+apply plugin: 'maven'
+
+uploadArchives {
+	repositories.mavenDeployer {
+		repository (url: "file:///home/aravind/Documents/GitPersonal/maven-repo-snapshot")
+		pom.version = '0.2'
+		pom.artifactId = 'column-rearange'
+		pom.groupId = 'com.aravind.order'
+	}
+}
 
 jar {
-    baseName = 'data-order'
+    baseName = 'column-rearange'
     version =  '0.1'
 }
 

@@ -15,9 +15,9 @@ public class ArrangeTest {
 	@Test
 	public void test() {
 		Map<String, String> mapData = new HashMap<String, String>();
-		mapData.put("ID", "INT");
-		mapData.put("NAME", "VARCHAR");
-		mapData.put("SALARY", "INT");
+		mapData.put("ID", "int");
+		mapData.put("NAME", "varchar");
+		mapData.put("SALARY", "int");
 		System.out.println(mapData);
 		List<String> list = Arrange.arrangeItem(mapData, ARRANGE_TYPE.INT_INT, 2);
 		System.out.print("After arrange::INT-INT = ");
@@ -27,10 +27,10 @@ public class ArrangeTest {
 	@Test
 	public void test1() {
 		Map<String, String> mapData = new HashMap<String, String>();
-		mapData.put("ID", "INT");
-		mapData.put("NAME", "VARCHAR");
-		mapData.put("SALARY", "INT");
-		mapData.put("DEPT", "VARCHAR");
+		mapData.put("ID", "int");
+		mapData.put("NAME", "varchar");
+		mapData.put("SALARY", "int");
+		mapData.put("DEPT", "varchar");
 		System.out.println(mapData);
 		List<String> list = Arrange.arrangeItem(mapData, ARRANGE_TYPE.STRING_INT, 2);
 		System.out.print("After arrange::STRING-INT = ");
@@ -40,10 +40,10 @@ public class ArrangeTest {
 	@Test
 	public void test2() {
 		Map<String, String> mapData = new HashMap<String, String>();
-		mapData.put("ID", "INT");
-		mapData.put("NAME", "VARCHAR");
-		mapData.put("SALARY", "INT");
-		mapData.put("DEPT", "VARCHAR");
+		mapData.put("ID", "int");
+		mapData.put("NAME", "varchar");
+		mapData.put("SALARY", "int");
+		mapData.put("DEPT", "varchar");
 		System.out.println(mapData);
 		List<String> list = Arrange.arrangeItem(mapData, ARRANGE_TYPE.INT_STRING, 2);
 		System.out.print("After arrange::INT-STRING = ");
@@ -53,10 +53,10 @@ public class ArrangeTest {
 	@Test
 	public void test3() {
 		Map<String, String> mapData = new HashMap<String, String>();
-		mapData.put("ID", "INT");
-		mapData.put("NAME", "VARCHAR");
-		mapData.put("SALARY", "INT");
-		mapData.put("DEPT", "VARCHAR");
+		mapData.put("ID", "int");
+		mapData.put("NAME", "varchar");
+		mapData.put("SALARY", "int");
+		mapData.put("DEPT", "varchar");
 		System.out.println(mapData);
 		List<String> list = Arrange.arrangeItem(mapData, ARRANGE_TYPE.STRING_STRING, 2);
 		System.out.print("After arrange::STRING-STRING = ");
